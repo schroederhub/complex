@@ -28,8 +28,8 @@ deploy:
   region: us-west-2
   app: complex
   env: complex-env
-  bucket_name: elasticbeanstalk-us-west-2-368585928309/
-  bucket_path: /
+  bucket_name: elasticbeanstalk-us-west-2-368585928309
+  bucket_path: /complex
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
