@@ -28,7 +28,7 @@ deploy:
   region: us-west-2
   app: complex
   env: complex-env
-  bucket_name: elasticbeanstalk-us-west-2-368585928309
+  bucket_name: elasticbeanstalk-us-west-2-368585928309/
   bucket_path: complex
   on:
     branch: master
