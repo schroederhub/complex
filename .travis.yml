@@ -11,8 +11,8 @@ script:
   - docker run -e CI=true schroederhub/react-test npm test 
 
 after_success:
-  - docker build -t schroederhub/multi-client ./client
   - docker build -t schroederhub/multi-nginx ./nginx
+  - docker build -t schroederhub/multi-client ./client
   - docker build -t schroederhub/multi-server ./server
   - docker build -t schroederhub/multi-worker ./worker
   # Log in to the docker CLI
